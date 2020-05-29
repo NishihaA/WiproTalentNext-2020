@@ -1,0 +1,30 @@
+//Sum of the elements in array
+import java.io.*;
+import java.math.*;
+import java.security.*;
+import java.text.*;
+import java.util.*;
+import java.util.concurrent.*;
+import java.util.regex.*;
+
+
+
+class Result {
+
+    /*
+     * Complete the 'arraySum' function below.
+     *
+     * The function is expected to return an INTEGER.
+     * The function accepts INTEGER_ARRAY numbers as parameter.
+     */
+
+    public static int arraySum(List<Integer> numbers) {
+    // Write your code here
+int sum=0;
+for(int n:numbers)
+{
+    sum=sum+n;
+}
+return sum;
+    }
+}
